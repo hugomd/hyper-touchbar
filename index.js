@@ -23,7 +23,7 @@ exports.onWindow = (win) => {
 
   const touchBar = new TouchBar([
     commandButton({ label: 'clear', bgColor: '#c0392b', command: 'clear' }),
-    commandButton({ label: 'ls -a', bgColor: '#2980b9', command: 'ls -a' }),
+    commandButton({ label: 'ls -la', bgColor: '#2980b9', command: 'ls -a' }),
   ]);
 
   win.setTouchBar(touchBar);
